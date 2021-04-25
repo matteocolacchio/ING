@@ -1,0 +1,156 @@
+html, body{
+    background-color: #d6d9dc;
+    min-height: 100vh;
+    width: 100vw;
+    margin:0;
+    padding:0;
+    background-repeat: no-repeat;
+}
+
+hr{
+    color: #acb3b9;
+}
+
+.logoHeader{
+    margin: 15px;
+    width: 130px;
+    vertical-align: middle;
+}
+
+.titleHeader{
+    vertical-align: middle;
+    color: white;
+    font-size:xx-large;
+    font-weight:500;
+}
+
+.mainContainer{
+    margin: 50px 130px 30px 130px;
+    padding: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 13px 3px rgba(118,118,118,0.3); 
+    box-shadow: 0px 0px 13px 3px rgba(118,118,118,0.3); 
+    text-align: center;
+}
+
+.searchBarTitle{
+    background-color: #FF6200;;
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(118,118,118,0.3); 
+    box-shadow: 0px 0px 10px 3px rgba(118,118,118,0.3);
+    padding: 5px;
+}
+
+.searchBarForm{
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(118,118,118,0.3); 
+    box-shadow: 0px 0px 10px 3px rgba(118,118,118,0.3);
+    padding: 10px;
+}
+
+.searchBarLabel{
+    color: #767676;
+    font-size: large;
+}
+
+#cityInput{
+    height: 36px;
+    border-style: solid;
+    border-color:#a6a6a6;
+    margin: 3px 0px 3px 5px;
+}
+
+#cityInput:active, #cityInput:focus {
+    border-color:#FF6200;
+    outline: #FF6200;
+}
+
+#searchButton {
+    height: 36px;
+    background-color: #FF6200; /* Green */
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FF6200;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 6px 0px 0px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding: 3px;
+    width: 50px;
+}
+  
+#searchButton:hover {
+    background-color: white;
+    color: #FF6200;
+}
+
+.weatherForecast{
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(118,118,118,0.3); 
+    box-shadow: 0px 0px 10px 3px rgba(118,118,118,0.3);
+    padding: 10px;
+    text-align: left;
+    display: none;
+}
+
+.errorMessage{
+    font-size: large;
+    color: #e34444;
+}
+
+.cityLabel{
+    color: #767676;
+    font-size: larger;
+    margin: 8px 0px 10px 0px;
+    text-align: center;
+}
+
+.tableBox{
+    margin-top: 20px;
+}
+
+.iconCell{
+    background-color: #75808a!important;
+}
+
+.dayCell{
+    background-color: #75808a!important;
+    font-size: x-large;
+    font-weight: 600;
+    vertical-align:middle;
+}
+
+tr, th, td{
+    background-color: #3b4045!important;
+}
+
+.table-custom{
+    -webkit-box-shadow: 0px 0px 8px 2px rgba(118,118,118,0.15); 
+    box-shadow: 0px 0px 8px 2px rgba(118,118,118,0.15);
+    border-color: #838c95;
+}
+
+@media only screen and (max-width: 768px) {
+    .searchBarContainer{
+        margin: 50px 30px 30px 30px;
+    }
+
+    #searchButton{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    #cityInput{
+        width: 100%;
+        margin: 3px 0px 3px 0px;
+    }
+
+    .mainContainer{
+        margin: 50px 40px 30px 40px;
+    }
+
+    .tableBox{
+        padding: 0px;
+    }
+}
+
