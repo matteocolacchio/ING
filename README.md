@@ -34,8 +34,8 @@ ___
 ## Instructions
 
 - Download the project folder on your PC.
-- Open the terminal, move under the directory `/backend/weather-forecast` and run the command `./mvnw spring-boot:run` (Now you have your backend server running on localhost:8080).
-- Open the file `index.html` in the directory `/frontend` with your Browser (The test of the GUI has been done using Google Chrome).
+- Open the terminal, move under the directory `/weather-forecast` and run the command `./mvnw spring-boot:run` (Now you have your backend server running on localhost:8080).
+- Once the server is running, find out the weather forecast for your favorite city at `http://localhost:8080/index.html` (The test of the GUI has been done using Google Chrome).
 - You can find the Rest API documentation at `http://localhost:8080/WeatherForecast/api-docs.html`  
 
 
